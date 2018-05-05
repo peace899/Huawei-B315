@@ -16,8 +16,7 @@ username = 'admin'
 password = 'admin'
 modem_ip = '192.168.8.1'
 
-
-        
+   
 def get_browser():
     # Use headless Firefox
     options = Options()
