@@ -1,4 +1,5 @@
 #  My tool to interact with Huawei B315 router
+# Author: Peace Lekalakala (peacester at gmail dot com)
 # inspiration: https://gist.github.com/jonathanhoskin/0bc11f55d0ec926c0a457d4110b1f46f
 
 import time
