@@ -85,7 +85,8 @@ def get_sms_list(browser):
         
         all_sms = []
         for message in messages:
-            read_state = re.findall('\d+', str(message[0]).split()[2])[0]
+            read_state = message[0].find('span').attrs 
+            read_state = re.findall('\d+', read_state['class'][1])[0]
         
             sms = {}
             sms['Opened'] = True if int(read_state) == 1 else False
